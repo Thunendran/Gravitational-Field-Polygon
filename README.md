@@ -296,15 +296,6 @@ For Python multiprocessing, use a saved script with calls inside an `if __name__
 
 ---
 
-## Validation and Numerical Notes
-
-The notebooks contain numerical comparisons and tensor-trace checks. Away from the mass, an approximately zero tensor trace is a useful consistency check. It does not by itself establish the sign or accuracy of all components. No independently reproduced cross-language performance or accuracy figures are claimed here.
-
-Exact sheet, edge, and vertex evaluations depend on the implemented limiting and regularization conventions. Safe logarithm and arctangent handling differs between routines; begin validation with observation points away from the sheet and inspect boundary behavior separately.
-
-**Sign convention requiring review:** At `(0.2, 0.2, 1.0)`, the Python triangle defined in the quick start returns positive potential and acceleration approximately `(-0.04985, -0.04985, +0.41637)`. A central finite-difference check gives acceleration equal to the negative gradient of that potential. The rectangle example returns negative vertical acceleration above its sheet. Reconcile these conventions before combining triangle and rectangle vector/tensor results in a physical model. The documentation update leaves the numerical implementations unchanged.
-
----
 
 ## Citation
 
