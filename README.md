@@ -83,8 +83,6 @@ Gravitational-Field-Polygon-main/
 └── LICENSE
 ```
 
-The existing root-level `Readme.ipynb` is an empty placeholder; use this README for instructions. Generated Python cache files are omitted from the tree.
-
 ---
 
 ## Requirements
