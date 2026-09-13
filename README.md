@@ -20,12 +20,6 @@ Multi-language implementation (Python, MATLAB, Julia) of analytical formulations
 
 **Correspondence:** thunendran@gmail.com
 
-| Publication milestone | Date |
-|---|---|
-| Received | 28 January 2026 |
-| Accepted | 28 June 2026 |
-| Published / version of record | 23 July 2026 |
-
 ---
 
 ## Overview
